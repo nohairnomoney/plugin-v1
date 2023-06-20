@@ -24,8 +24,9 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
+
     <actions>
-        <action id="com.hwf.pluginv1" class="com.hwf.pluginv1.FirstAction" text="FirstAction" description="The first action">
+        <action id="FirstAction" class="com.hwf.pluginv1.FirstAction" text="firstAction" description="first action">
             <add-to-group group-id="HelpMenu" anchor="first"/>
         </action>
     </actions>
